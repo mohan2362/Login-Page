@@ -17,6 +17,7 @@ box-shadow: 0 10px 30px rgba(0,0,0,0,2);
 }
 button {
 padding: 12px;
+width:80%;
 border-radius: 10px;
 border: none;
 background: #0072ff;
@@ -32,6 +33,9 @@ h2,h3 {
 padding:8px;
 border:1px solid;
 border-radius: 7px;
+}
+h2 {
+    font-size:20px;
 }
 p {
     font-size: 20px;
@@ -60,8 +64,9 @@ input {
    }
 
 .login-box {
-    width:250px;
+    width:100px;
     margin: auto;
+    max-width:270px;
     background: white;
     padding: 20px;
     border-radius: 15px;
