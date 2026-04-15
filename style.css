@@ -9,8 +9,9 @@ padding:14px;
 .container{
 background: white;
 padding:30px;
-width:300px;
-margin: 10px;
+width:90%;
+margin:auto;
+max-width:350px;
 margin-top: 100px;
 border-radius: 15px;
 box-shadow: 0 10px 30px rgba(0,0,0,0,2);
@@ -54,6 +55,7 @@ p {
     width: 0%;
     border-radius: 5%;
 }
+@media (max-width:600px) {
 input {
     width:100%;
     padding:10px;
@@ -62,7 +64,7 @@ input {
     border: 1px solid #ccc;
     border-radius: 6px;
    }
-
+}
 .login-box {
     width:100px;
     margin: auto;
