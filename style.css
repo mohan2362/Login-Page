@@ -39,8 +39,7 @@ h2 {
     font-size:20px;
 }
 p {
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 17px;
 }
 .progress {
     background: lightblue;
@@ -59,18 +58,11 @@ input {
     width:100%;
     padding:10px;
     margin-top: 5px;
-    margin-bottom: 4px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
    }
 .login-box {
     width: 100%;
     max-width: 300px;
-    margin: auto;
-    background: white;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 12px 20px rgba(0,0,0,0.2);
+    text-align: center;
 }
   }
 .login-box:hover {
