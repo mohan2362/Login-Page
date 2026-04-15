@@ -1,0 +1,76 @@
+body{
+background:linear-gradient(to right, #005cef, #0072ff);
+display: flex;
+justify-content: center;
+height: 100vh;
+align-items: center;
+padding:14px;
+}
+.container{
+background: white;
+padding:30px;
+width:300px;
+margin: 10px;
+margin-top: 100px;
+border-radius: 15px;
+box-shadow: 0 10px 30px rgba(0,0,0,0,2);
+}
+button {
+padding: 12px;
+border-radius: 10px;
+border: none;
+background: #0072ff;
+color: white;
+cursor: pointer;
+transition: 0.3s;
+}
+button:hover {
+background-color: darkblue;
+cursor: pointer;
+}
+h2,h3 {
+padding:8px;
+border:1px solid;
+border-radius: 7px;
+}
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+.progress {
+    background: lightblue;
+    width:100%;
+    height: 12px;
+    border-radius: 10px;
+    margin-top: 9px;
+}
+#progressBar {
+    height: auto;
+    background: white;
+    width: 0%;
+    border-radius: 5%;
+}
+input {
+    width:100%;
+    padding:10px;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+   }
+
+.login-box {
+    width:250px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 12px 20px rgba(0,0,0,2);
+    transition: 0.3s;
+}
+.login-box:hover {
+    transform: scale(1.02);
+}
+* {
+    box-sizing: border-box;
+}
